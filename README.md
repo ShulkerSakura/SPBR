@@ -1,5 +1,6 @@
 ## SPBR Shulker's PBR
-# A renewed textures pack based on VNR,which in order to provide batter PBR textures based on current VNR(Vanilla-Normal-Renewed)textures pack by Poudingue.
+# A renewed textures pack based on VNR,which in order to provide batter PBR textures based on current VNR(Vanilla-Normal-Renewed)textures pack by Poudingue.  
+# VNR Repo : https://github.com/Poudingue/Vanilla-Normals-Renewed
 ![avatar](images/1.jpg)
 ![avatar](images/2.jpg)
 ![avatar](images/3.jpg)
