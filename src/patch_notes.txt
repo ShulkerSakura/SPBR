@@ -1,0 +1,405 @@
+VNR changelogs :
+
+
+V1.0.5 - 1.17 update
+Added :
+- Amethyst block, budding amethyst
+- Copper block, cut copper, and all oxidized/exposed/weathered variants
+- Deepslate blocks
+
+Changed :
+- Totally reworked cobblestone and mossy cobblestone Pom
+- Stone bricks and blackstone bricks pom adjusted
+- Slightly better labPBR normals
+- Removed any unused alpha channel in normal textures
+
+V1.0.4 - labPBR update 2 - 725 normals updated for labPBR compatibility
+Added :
+- labPBR specular values:
+  Lilypads, Dried kelp
+  Wool
+  Barrel, composter
+  Sandstone
+  All basalt, all blackstone, bedrock, all colors of concrete and concrete powder
+  All colors of terracotta and glazed terracotta
+Added :
+- Item for armors are now present (leather, iron, gold, diamond and netherite)
+- Horse armors too
+
+Changed :
+- Reworked normals for labPBR compatibility
+- Reworked doors (Mainly jungle door, but also slight adjustments to oak and iron doors)
+- Redstone ore is now slightly emissive
+- Adjusted all tinted glass and glass specular
+- Changed orange and purple glazed terracotta design
+- Bedrock specular
+
+Fixed :
+- Buckets now in the correct folder :)
+- Glowing lilypads
+
+
+V1.0.3 - labPBR update 1
+
+Added :
+- labPBR specular value to a lot of blocks :
+  Wood stuff : All doors and trapdoors, planks, logs, stripped logs...
+  Stone stuff : All polished and unpolished stones, stonebricks, all ores
+  Precious : All quartz blocks, lapis block, diamond block,
+  Misc : Campfire, stonecutter, and probably stuff that I forgot
+- Ensured correct emissives (oldPBR AND labPBR) :
+  all the torches, shroomlight, iron golem eyes, campfire
+
+Fixed :
+- Iron golem are now working again !
+
+
+V1.0.2 - 1.16 + emissives update
+
+Added :
+- Command blocks, chain command block and repeating command block (with emissives)
+- Honey block, honeycomb, target block, lodestone, netherite block
+- Animated nether portal block
+- More nether blocks :
+  Ancient debris
+  Crimson planks, warped planks, stripped crimson and warped stem
+  Crimson door, trapdoor, warped trapdoor
+  Chiseled and cracked nether bricks
+  Soul lantern and soul torch
+- Brewing stand base albedo, normals and specular
+- Quartz brick, end rod
+- Frosted ice (also remade simple ice)
+
+Changed :
+- More colourfull tinted glass
+- Correct emissives for all types of torches
+- Better normals for nether quartz ore, added pom to soul sand
+- Cleaner normals for gold block and diamond block
+- Chiseled quartz block, reduced baked-in ao, added Pom
+- Sea lantern, now with Pom and some non-emissive frame
+- Magma block Pom
+- More subtle normals/pom for the blast furnace
+- Adjusted albedo for cobblestone, oak door and trapdoor, polished blackstone
+
+Fixed :
+- Reduced the size of animated textures
+- New chest texture format
+- Lantern/Soul lantern/Soul fire emissive texture now correct
+- Correct emissive textures for furnace/blast furnace, torch, redstone torch, soul torch (working better with mollyVX emissives)
+- Fixed concretes and vines with incorrect labPBR emissives
+- Fixed incorrect normals for grindstone
+- Missing albedo    : crimson stem, warped stem, sea lantern, shulker box...
+- Missing normals   : cauldron bottom, smooth quartz
+- Missing specular  : dead bush, yellow bed
+- Missing emissives : All torches, beacon
+
+Removed :
+- Glass textures (causing connected textures to not work)
+- Christmas chest textures
+
+
+V0.9.9.9 - Beyond 1.14 :
+Added :
+- Nether blocks :
+  Crimson nylium, crying obsidian, nether gold ore and shroomlight
+  Soul soil, weeping vines
+  Warped nylium, stem, wart
+  Blackstone, gilded blackstone, polished blackstone and blackstone bricks
+  Basalt, polished basalt
+- Spawner
+- A few missing 1.14 textures :
+  Concretes albedo, coral block albedo and specular, dropper, dispenser, tnt, glass and glass plane, chests...
+
+Changed :
+- Lots of emissive for labPBR compatibility
+- Soul soil reworked to better catch the light
+- Reworked dropper and dispenser
+- Buggy chest
+
+Removed :
+- Strange glossy slimes and magmacubes
+
+
+
+V0.9.4 - 1.14 update part Five :
+Added :
+- Iron Golem
+- Fletching table, campfire, smoker, smithing table
+- Lectern, loom, lectern, scaffolding
+- Torch
+
+Changed :
+- Reworked dried kelp
+- Reworked wet and dry sponge (albedo, normals, specular)
+- Reworked anvils
+- Reworked enchanting table
+- Reworked multiple normals to remove incorrect baked-in ao in :
+  - All logs and stripped logs
+  - Cactus, barrels
+- Added emissive compatibility for labPBR for multiple textures :
+  - Jack-o-lantern
+  - Activator rail
+  - Blast furnace
+
+Fixed :
+- Incorrect End portal file names
+
+Removed :
+- Unused normals texture
+
+
+
+v0.9 - 1.14 update part Four :
+Added :
+- Lanterns
+- Blast Furnace, Cartography table, Stonecutter
+- Tools (pickaxe, axe, hoe)
+
+Changed :
+- Reworked swords
+- Redstone lamp on/off : reworked albedo, normals and specular
+- Wool : reworked albedo and normals, added specular
+- Reworked mycelium
+- Reworked podzol albedo
+- Reworked cobblestone albedo and normals
+
+Fixed :
+- Missing yellow terracotta normals
+
+
+
+v0.8 - 1.14 update part Three :
+Added :
+- Composter (albedo, normals and specular)
+- Tools : Shovels
+- B stuff : Bamboo, barrel, bell and blue ice. Also brick item. And nether brick.
+- Random stuff : Sticks. Because this is very important.
+
+Changed :
+- New sandstones, with reworked normals and specular
+- New grass block side, path and snow too
+- Nicer looking clock, in REAL GOLD this time ! (New albedo, normals and specular)
+- New andesite, diorite and granite normals and specular (new specular also for polished versions)
+- New planks textures, normals and specular
+- New doors and trapdoors textures, I still have to rework the normals and specular
+- A lot of new textures : Cake, hopper, chorus plant/flower, farmland, cactus (cacti ?), carved pumpkin
+- Changed specular of the cauldron to not look weird in Seus Renewed (and other textures with a 0.5 glossiness threshold to apply reflection)
+
+Removed :
+- Bow textures, that should be redone
+- Different buckets, should add the new 1.14 ones instead
+
+
+
+v0.7.1 - furnace hotfix and stuff
+Added :
+- Diamond normals and specular
+
+Changed :
+- Fixed lit furnace
+- New swords textures and specular/normals
+- New emerald texture and specular/normals
+- New gold and iron ingots
+- New egg
+
+Removed :
+- Old apple and golden apple
+- Wrongly named “wood sword”
+
+
+
+v0.7 - 1.14 update part Two
+Added :
+- Packed ice
+
+Changed :
+- Fixed cobblestone (and mossy) normals making a few pixels too dark
+- NEW MELON ! With updated normals and specular !!!
+- New cauldron textures and normals/specular
+- New ores with improved normals/specular
+- New logs (and stripped logs) textures
+- New leaves, with proper normals/specular
+- New quartz blocks, improved normals/specular
+- New TNT, Furnace, Red nether bricks, bookshelves, hay block, with new normals and specular
+- Changed emerald and diamond normals/specular
+- Better prismarine normals/specular
+- Improved bricks albedo
+
+
+
+v0.6 - 1.14 update part One
+Added :
+- Bone block
+- Added back missing albedos
+
+Changed :
+- New stones, stonebricks, cobblestone and endstone
+- New emerald block, gold block, obsidian
+- New prismarine stuff
+- New glowstone
+- New watermelon
+- New piston and sticky piston
+- Updated numerous other textures to 1.14 new textures.
+
+
+
+v0.5 - Final 1.13 update (release) :
+Added :
+- Beds of all colors
+- Objects : Iron and golden lingots, best emerald
+- Equipment : Shield, horse armors
+- Animals : Silverfish, slime stuff, dolphin, blaze
+
+Changed :
+- Sandstone and snow changes. For now 1.13 textures, this will be separated into a separate pack when i'll add the 1.14 textures.
+- More small changes everywhere
+
+
+
+v0.4 - Corals update :
+Added :
+- Coral normals
+- Compass, emerald and clock normals and specular
+- Began sea turtle !
+- 1.13 textures to override 1.14 new textures
+- Grass normals and specular
+
+Changed :
+- Better iron, gold and diamond swords
+- Unified leaves
+- Tweaked oak and dark oak doors
+- Tweaked stone slabs
+
+
+
+v0.3 - The Glazed update part II :
+Added :
+- Remaining colored glazed terracotta !
+
+Changed :
+- Unified rails
+- Fixed plastic-looking dark oak trapdoor and door.
+- Made overall smoother quartz
+- Fixed flickering magma
+- Rougher iron
+- Changed diamond to non-glowing
+- Changed polished andesite/diorite/granite to keep a slight shading in the albedo
+- Changed andesite/diorite/granite normals and specular
+
+
+
+v0.2 - The Glazed update part I :
+Added :
+- Part of the colored glazed terracotta ! With albedo tweaks, added normals and specular
+- Added all wood trapdoors normals and specular, and tweaked albedo
+- All colored terracotta and concrete/concrete powder
+- Shulker box normals and specular added
+- Removed hardcoded shading from smoothed stones albedo
+
+Changed :
+- Fixed and improved the missing doors
+- Other small tweaks
+
+
+
+v0.1 :
+Added :
+- Added stripped logs
+- Squids and creeper normals and specular
+- Apple have normals/specular informations :3 (Also custom albedo so that it doesn't look like a cherry anymore)
+- Buckets normals and specular
+- Golden apple, eggs, brown mushrooms
+- Ender perl and ender eye
+- Normals and specular for all stained glass
+- Armors normals and specular (to improve based on feedback)
+- Swords normals and specular (to improve based on feedback)
+
+Changed :
+- Changed all the logs to a more correct PBR approach, normals to give a curved rendering
+- Cactus
+- Lowered size of a lot of textures
+- Renamed textures incorrectly converted
+
+Removed :
+- A lot of albedo unchanged from vanilla textures
+
+
+
+v0.0 (release) :
+Converted textures to 1.13 format
+
+
+
+VNR 1.12 changelogs :
+
+v0.04 (release) :
+Added :
+- Multiple glass plane normals and specular added
+- Itemframe normals and specular
+- Tall grass normals and specular
+
+Changed :
+- IMPROVED MELON !!!
+- The CAKE specular
+- Prismarine albedo, normals and shininess
+- Lighted pumpkin
+- Redstone components normals
+- Most ore normals and shininess fixed to blend with stone
+- Stonebrick speculars changed
+- Reeds, waterlily, magma block, farmland
+
+Removed :
+- A few unchanged base color textures
+
+
+
+v0.03 :
+Added :
+- Endframe normals and specular, still work in progress
+- Jukebox specular added
+- Added end bricks specular
+
+Changed :
+- All quartz block a little less glossy
+- Smoothed diorite, granite and andesite are less glossy
+- Changed end bricks normals
+- Reverted redstone block to non-metal
+- Changed hopper shininess
+- Shinier brick
+- Clay looks less like sand and more like clay
+- Corrected cobblestone and mossy cobble shininess
+- Enchanting table's appearance aligned on diamond and obsidian.
+- Adjusted dry farmland and hay block shininess
+
+
+
+v0.02 :
+Changed :
+- Fixed all the doors normals
+- Fixed all the doors incorrect metalness
+- Added specular informations to all the doors
+- Made the clay wetter
+- Changed the glowstone emissivity
+- Changed the specular for ice and packed ice
+- Added normals for packed ice
+- Changed slime specular and normals
+- Fixed stone slab normals incorrectly curved
+
+
+
+V0.01 :
+Changed :
+- Less shiny cauldron
+- Shinier dirt
+- Emerald block are now less “metal”, with a hybrid dielectric-metal render.
+- Stronger normals on the inside of mushrooms
+- Shinier nether wart
+- Rougher netherrack
+- Smoother and flatter obsidian
+- Reworked quartz ore block to improve visibility in the nether
+- Changed back redstone block to metal
+- Subtle changes to sand and smoothed andesite/diorite/granite
+
+
+
+v0.0 (release)
