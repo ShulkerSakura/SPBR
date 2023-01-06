@@ -3,6 +3,7 @@
 # VNR Repo : https://github.com/Poudingue/Vanilla-Normals-Renewed
 # SPBR NOW START TO BREAK AWAY FROM VNR
 ## SPBR 1-9_1
+![avatar](images/pack.png)
 SPBR-1-9 1 is officially released! The reason why SPBR-1-9 was not officially released before is that Optifine 1.19.3 has been constipated. 
 Now Iris has improved its support for GFME iterationT3 Sundial and other excellent Shaders in the 1.5 update, so today we officially release SPBR-1-9 1!
 ## Update logs since SPBR-1-8_3:
@@ -16,8 +17,11 @@ Now Iris has improved its support for GFME iterationT3 Sundial and other excelle
 - bamboo blank's PBR, Normal and parallax texture 
 - Bamboo fence's PBR, Normal and parallax texture 
 - Bamboo fence door's PBR, normal and parallax texture
+![avatar](images/1.jpg)
+![avatar](images/5.jpg)
 # Fix:
 - Sculk block's PBR, dynamic texture of normal did not add mcmeta file causing no animation and loading error in Iris
+![avatar](images/)
 # Adjust: 
 - Furnace's parallax texture 
 - Oak door's parallax texture 
@@ -31,6 +35,12 @@ Now Iris has improved its support for GFME iterationT3 Sundial and other excelle
 - Redraw the parallax texture of dirt paths (to connect more naturally with dirt) 
 - Redraw the parallax texture of mycelium (to connect more naturally with dirt) 
 - Redrew the parallax texture of podzol (to connect more naturally with dirt) 
+![avatar](images/2.jpg)
+![avatar](images/3.jpg)
+![avatar](images/4.jpg)
+![avatar](images/6.jpg)
+![avatar](images/7.jpg)
+![avatar](images/8.jpg)
 ## SPBR-1-10 update outlook: 
 - CTM connection texture of glass 
 - Redrew some crystal items whose PBR reflection is not good in some shaders 
