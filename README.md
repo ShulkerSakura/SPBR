@@ -2,6 +2,9 @@
 # A renewed textures pack based on VNR,which in order to provide better PBR textures based on current VNR(Vanilla-Normal-Renewed)textures pack by Poudingue.  
 # VNR Repo : https://github.com/Poudingue/Vanilla-Normals-Renewed
 # SPBR NOW START TO BREAK AWAY FROM VNR
+
+<p color="red">SPBR ONLY SUPPORT LABPBR!!!</p>
+
 ## SPBR 1-10_1
 ![avatar](images/pack.png)              
 
