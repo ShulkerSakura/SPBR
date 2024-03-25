@@ -3,7 +3,7 @@
 # VNR Repo : https://github.com/Poudingue/Vanilla-Normals-Renewed
 # SPBR NOW START TO BREAK AWAY FROM VNR
 
-<p color="red">SPBR ONLY SUPPORT LABPBR!!!</p>
+# SPBR ONLY SUPPORT LABPBR!!!
 
 ## SPBR 1-10_1
 ![avatar](images/pack.png)              
